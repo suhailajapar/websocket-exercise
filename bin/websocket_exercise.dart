@@ -23,5 +23,6 @@ void main(List<String> arguments) {
   });
 
   //Sending msg to server
+  print("You're in Forex: AUDJYP");
   channel.sink.add('{"ticks": "frxAUDJPY", "subscribe": 1}');
 }
